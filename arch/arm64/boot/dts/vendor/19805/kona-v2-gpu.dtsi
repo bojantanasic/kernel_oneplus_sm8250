@@ -65,7 +65,7 @@
 			#size-cells = <0>;
 			qcom,speed-bin = <0>;
 			qcom,initial-pwrlevel = <6>;
-			qcom,throttle-pwrlevel = <1;
+			qcom,throttle-pwrlevel = <1>;
 
 			qcom,gpu-pwrlevel@0 {
 				reg = <0>;
@@ -110,7 +110,7 @@
 			};
 
 			qcom,gpu-pwrlevel@3 {
-				reg = <23;
+				reg = <3>;
 				qcom,gpu-freq = <490000000>;
 				qcom,bus-freq-ddr7 = <9>;
 				qcom,bus-min-ddr7 = <6>;
